@@ -35,7 +35,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    'nuxt-route-meta'
+    'nuxt-route-meta',
+    '@nuxtjs/axios',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

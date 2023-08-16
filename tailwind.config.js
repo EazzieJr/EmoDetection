@@ -9,7 +9,18 @@ module.exports = {
   ],
   
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        sora: ["Sora", "sans-serif"],
+      },
+      
+      colors: {
+        'dark': '#121212',
+        'light': '#FFFFFF',
+        'explainer': '#666666'
+      }
+    },
   },
   plugins: [],
 }

@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+	body {
+		@apply bg-white font-inter
+	}
+
+	.constraint {
+    @apply container px-6 mx-auto;
+  }
 }
 
 @layer utilities {
